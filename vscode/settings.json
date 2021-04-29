@@ -1,0 +1,26 @@
+{
+    "workbench.startupEditor": "newUntitledFile",
+    "git.autofetch": true,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "workbench.colorTheme": "GitHub Dark",
+    "workbench.iconTheme": "vscode-icons",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "files.insertFinalNewline": true,
+    "editor.renderControlCharacters": true,
+    "workbench.editor.closeEmptyGroups": false,
+    "editor.formatOnSave": true,
+    "editor.fontFamily": "\"Source Han Code JP\", Menlo, Monaco, 'Courier New', monospace",
+    "editor.renderWhitespace": "boundary",
+    "files.trimTrailingWhitespace": true,
+    "workbench.editorAssociations": [
+        {
+            "viewType": "jupyter.notebook.ipynb",
+            "filenamePattern": "*.ipynb"
+        }
+    ],
+    "python.languageServer": "Pylance",
+    "python.formatting.provider": "black",
+    "editor.fontSize": 13,
+    "window.zoomLevel": 0.9
+}
