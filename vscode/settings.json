@@ -10,7 +10,7 @@
     "editor.renderControlCharacters": true,
     "workbench.editor.closeEmptyGroups": false,
     "editor.formatOnSave": true,
-    "editor.fontFamily": "\"Source Han Code JP\", Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontFamily": "\"Cica\", Menlo, Monaco, 'Courier New', monospace",
     "editor.renderWhitespace": "boundary",
     "files.trimTrailingWhitespace": true,
     "workbench.editorAssociations": [
@@ -21,6 +21,6 @@
     ],
     "python.languageServer": "Pylance",
     "python.formatting.provider": "black",
-    "editor.fontSize": 13,
+    "editor.fontSize": 17,
     "window.zoomLevel": 0.9
 }
