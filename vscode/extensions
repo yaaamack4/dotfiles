@@ -2,7 +2,7 @@ christian-kohler.path-intellisense
 CoenraadS.bracket-pair-colorizer-2
 eamodio.gitlens
 emilast.LogFileHighlighter
-GitHub.github-vscode-theme
+fisheva.eva-theme
 golang.go
 hediet.vscode-drawio
 mechatroner.rainbow-csv
@@ -19,4 +19,3 @@ ryu1kn.partial-diff
 saikou9901.evilinspector
 shardulm94.trailing-spaces
 VisualStudioExptTeam.vscodeintellicode
-vscode-icons-team.vscode-icons
