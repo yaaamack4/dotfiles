@@ -38,3 +38,8 @@ eval "$(starship init zsh)"
 # =====================
 export GOPATH="$HOME/.go"
 export PATH="$GOPATH/bin:$PATH"
+
+# =====================
+# anyenv
+# =====================
+eval "$(anyenv init -)"
