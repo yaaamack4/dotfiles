@@ -3,14 +3,11 @@
     "git.autofetch": true,
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    "workbench.colorTheme": "GitHub Dark",
-    "workbench.iconTheme": "vscode-icons",
     "liveServer.settings.donotShowInfoMsg": true,
     "files.insertFinalNewline": true,
     "editor.renderControlCharacters": true,
     "workbench.editor.closeEmptyGroups": false,
     "editor.formatOnSave": true,
-    "editor.fontFamily": "\"Cica\", Menlo, Monaco, 'Courier New', monospace",
     "editor.renderWhitespace": "boundary",
     "files.trimTrailingWhitespace": true,
     "workbench.editorAssociations": [
@@ -21,6 +18,10 @@
     ],
     "python.languageServer": "Pylance",
     "python.formatting.provider": "black",
-    "editor.fontSize": 17,
-    "window.zoomLevel": 0.9
+    "editor.fontSize": 16,
+    "editor.fontFamily": "\"HackGenNerd\", Menlo, Monaco, 'Courier New', monospace",
+    "window.zoomLevel": 0.9,
+    "path-intellisense.showHiddenFiles": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Eva Dark Italic"
 }
