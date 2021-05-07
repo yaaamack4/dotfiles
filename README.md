@@ -1,6 +1,6 @@
 # dotfiles
 
-![Completeness](https://progress-bar.dev/1/?title=dotfilesCompleteness)
+![Completeness](https://progress-bar.dev/4/?title=Completeness)
 
 # Usage
 

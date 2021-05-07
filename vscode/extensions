@@ -3,8 +3,10 @@ CoenraadS.bracket-pair-colorizer-2
 eamodio.gitlens
 emilast.LogFileHighlighter
 fisheva.eva-theme
+foxundermoon.shell-format
 golang.go
 hediet.vscode-drawio
+janisdd.vscode-edit-csv
 mechatroner.rainbow-csv
 mhutchie.git-graph
 ms-azuretools.vscode-docker
@@ -18,4 +20,5 @@ ritwickdey.LiveServer
 ryu1kn.partial-diff
 saikou9901.evilinspector
 shardulm94.trailing-spaces
+timonwong.shellcheck
 VisualStudioExptTeam.vscodeintellicode

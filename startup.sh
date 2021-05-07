@@ -22,15 +22,15 @@ brew cleanup
 info "ssh"
 
 if [ ! -f ~/.ssh/id_rsa.pub ]; then
-    read -p "please enter your email address: " email
-    ssh-keygen -t rsa -b 4096 -C $email -f ~/.ssh/id_rsa
+  read -p "please enter your email address: " email
+  ssh-keygen -t rsa -b 4096 -C $email -f ~/.ssh/id_rsa
 
-    eval "$(ssh-agent -s)"
+  eval "$(ssh-agent -s)"
 
-    touch ~/.ssh/config
-    echo "Host *\n AddKeysToAgent yes\n UseKeychain yes\n IdentityFile ~/.ssh/id_rsa" | tee ~/.ssh/config
+  touch ~/.ssh/config
+  echo "Host *\n AddKeysToAgent yes\n UseKeychain yes\n IdentityFile ~/.ssh/id_rsa" | tee ~/.ssh/config
 
-    ssh-add -K ~/.ssh/id_rsa
+  ssh-add -K ~/.ssh/id_rsa
 else
   echo "ssh skip"
 fi
@@ -39,9 +39,9 @@ fi
 
 info "zsh"
 
-if [ -z "$(cat /etc/shells | grep `brew --prefix`/bin/zsh)" ]; then
-    grep -Fxq "$(brew --prefix)/bin/zsh" /etc/shells || sudo sh -c 'echo $(brew --prefix)/bin/zsh >> /etc/shells'
-    chsh -s $(brew --prefix)/bin/zsh
+if [ -z "$(cat /etc/shells | grep $(brew --prefix)/bin/zsh)" ]; then
+  grep -Fxq "$(brew --prefix)/bin/zsh" /etc/shells || sudo sh -c 'echo $(brew --prefix)/bin/zsh >> /etc/shells'
+  chsh -s $(brew --prefix)/bin/zsh
 else
   echo "zsh skip"
 fi
@@ -62,9 +62,9 @@ fi
 
 if is_executable "code"; then
   while read package; do
-    code --install-extension $package --force > /dev/null 2>&1
+    code --install-extension $package --force >/dev/null 2>&1
     echo "VScode extension $package installed"
-  done < "./vscode/extensions"
+  done <"./vscode/extensions"
 
   success "VScode successfully configured"
 fi
