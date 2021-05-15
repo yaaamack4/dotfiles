@@ -8,13 +8,22 @@ source lib/echo.sh
 
 info "brew"
 
+read -r -p "please select profile 1, 2: " profile
+
+if [ "$profile" = 1 ]; then
+  BREWFILE="Brewfile"
+elif [ "$profile" = 2 ]; then
+  BREWFILE="Brewfile-ext"
+else
+  BREWFILE="Brewfile"
+fi
+
 if ! is_executable "brew"; then
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 fi
 
-brew update
 brew tap homebrew/bundle
-brew bundle
+brew bundle --file="./Homebrew/${BREWFILE}" -v
 brew cleanup
 
 # ################ ssh ################
